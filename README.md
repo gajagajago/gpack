@@ -1,5 +1,7 @@
 # GPack
 
+"Investigating Contention Sensitivity of DL Training Workloads in Shared GPU Cluster", KSC'22 [paper](gpack.pdf)
+
 ## 1. How to build
 Register current user to the docker group. This will enable use of `docker` command without `sudo`.  
 ```zsh
@@ -17,7 +19,7 @@ Run docker container image. The attached container will be allocated limited har
 ```zsh
 ./docker_launch_${nth}.sh 
 
-# e.g) ./docker_launch.sh /home/gajagajago/dlcm/profiler/gnn/ClusterGCN /home/gajagajago/dlcm/profiler/gnn/GraphRNN 0 clustergcn_graphrnn 0
+# e.g) ./docker_launch.sh $GPACK_PATH/profiler/gnn/ClusterGCN $GPACK_PATH/profiler/gnn/GraphRNN 0 clustergcn_graphrnn 0
 ```
 (Optional) To enable MPS for co-location profiling, run the following command inside the docker container. This command is included in `entrypoint.sh`, so the containers run by `docker_launch_*.sh` have MPS enabled as default.
 ```zsh
