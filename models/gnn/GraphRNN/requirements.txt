@@ -1,0 +1,7 @@
+tensorboard-logger
+tensorflow
+networkx
+pyemd
+matplotlib
+sklearn
+community

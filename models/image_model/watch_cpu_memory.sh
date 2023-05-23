@@ -1,0 +1,1 @@
+timeout 1m dstat -tfvn --output cpu_memory_log.csv

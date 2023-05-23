@@ -1,0 +1,1 @@
+DATA_PATH = "/mnt/data/deepfm_data/"

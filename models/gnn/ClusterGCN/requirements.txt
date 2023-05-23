@@ -1,0 +1,6 @@
+torch-geometric
+torch_spline_conv
+torch_sparse
+torch_scatter
+torch_cluster
+metis
