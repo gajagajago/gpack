@@ -15,7 +15,7 @@ id -Gn
 ```
 
 ## 2. How to run
-Run docker container image. The attached container will be allocated limited hardware resources. `$nth` can be {1st..6th} since our target machine, Moana-01 only has 6 GPUs. 
+Run docker container image. The attached container will be allocated limited hardware resources. `$nth` is the index of the target GPU. 
 ```zsh
 ./docker_launch_${nth}.sh 
 
