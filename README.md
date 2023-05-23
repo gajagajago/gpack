@@ -1,6 +1,6 @@
 # GPack
 
-Junyeol Ryu, Byung-gon Chun. Investigating Contention Sensitivity of DL Training Workloads in Shared GPU Cluster. KSC 2022. Best paper award. ([paper](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=dMVmdXsAAAAJ&citation_for_view=dMVmdXsAAAAJ:u5HHmVD_uO8C))
+**Junyeol Ryu**, Byung-gon Chun. Investigating Contention Sensitivity of DL Training Workloads in Shared GPU Cluster. KSC 2022. Best paper award. ([paper](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=dMVmdXsAAAAJ&citation_for_view=dMVmdXsAAAAJ:u5HHmVD_uO8C))
 
 ## 1. How to build
 Register current user to the docker group. This will enable use of `docker` command without `sudo`.  
