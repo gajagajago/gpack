@@ -1,6 +1,6 @@
 # GPack
 
-**Junyeol Ryu**, Byung-gon Chun. Investigating Contention Sensitivity of DL Training Workloads in Shared GPU Cluster. KSC 2022. Best paper award. ([paper](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=dMVmdXsAAAAJ&citation_for_view=dMVmdXsAAAAJ:u5HHmVD_uO8C))
+We investigate the resource usage characteristics of DL jobs through fine-grained profiling and analyze contention sensitivity of each job.
 
 ## 1. How to build
 Register current user to the docker group. This will enable use of `docker` command without `sudo`.  
@@ -35,4 +35,15 @@ timeout 1h run_${job2}.sh &
 From the host terminal, profile the container for resource usage. Run the following command inside `/scripts`. The following command will profile the container for 1 hour while logging every second to `/results/$container/`. 
 ```zsh 
 ./log_gpu_cpu_mem.sh $container $gpu_idx
+```
+
+## Citation
+```
+@article{ryu2022우수논문,
+  title={[우수논문] Investigating Contention Sensitivity of DL Training Workloads in Shared GPU Cluster},
+  author={Ryu, Junyeol and Chun, Byung-Gon},
+  journal={한국정보과학회 학술발표논문집},
+  pages={1184--1186},
+  year={2022}
+}
 ```
